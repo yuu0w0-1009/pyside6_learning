@@ -1,4 +1,4 @@
-# PySide6 Getting Started
+# PySide6 入門
 
 ### tutorial : https://www.pythonguis.com/pyside6-tutorial
 
