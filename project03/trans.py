@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QApplication, QWidget
 from Ui_trans import Ui_Form
+import numpy as np
 
 class MyWindow(QWidget, Ui_Form):
     def __init__(self):
@@ -33,7 +34,7 @@ class MyWindow(QWidget, Ui_Form):
         nextType = self.ComboBoxInput2.currentText()
 
         AA = float(value) * self.TypeDict[bigType][nowType]
-        result = AA / self.TypeDict[bigType][nextType] 
+        result = np.round(AA / self.TypeDict[bigType][nextType], 5)
 
         self.LabelOutput1.setText(f'{value} {nowType} =')
         self.LabelOutput2.setText(f'{result} {nextType}')
