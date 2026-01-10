@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QApplication, QWidget, QRadioButton, QButtonGroup
-from Ui_RadioButton import Ui_Form
+from UI.Ui_RadioButton import Ui_Form
 
 class MyWindow(QWidget, Ui_Form):
     def __init__(self):

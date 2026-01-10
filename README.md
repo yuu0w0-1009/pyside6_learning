@@ -4,4 +4,4 @@
 
 ### video : https://www.bilibili.com/video/BV1c84y1N7iL/
 
-### schedule : 019 總結
+### schedule : 021 QInputDialog

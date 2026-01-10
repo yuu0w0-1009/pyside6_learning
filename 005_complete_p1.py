@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QApplication as qap
 from PySide6.QtWidgets import QWidget as qwg
-from Ui_project01_Login import Ui_Form
+from UI.Ui_project01_Login import Ui_Form
 
 class MyWindow(qwg, Ui_Form):
     def __init__(self):
