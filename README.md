@@ -4,4 +4,4 @@
 
 ### video : https://www.bilibili.com/video/BV1c84y1N7iL/
 
-### schedule : 021 QInputDialog
+### schedule : 025 QColorDialog
